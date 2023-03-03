@@ -1,21 +1,8 @@
 <script>
-	import { invalidateAll } from '$app/navigation'
-	import { supabase } from '$lib/supabase'
-	import { onMount } from 'svelte'
+	
 	import Header from '$lib/components/Header.svelte'
 	import './styles.css'
 
-	onMount(() => {
-		const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-			console.log('event', event)
-			console.log('session', session)
-			invalidateAll()
-		})
-
-		return () => {
-			subscription.unsubscribe()
-		}
-	})
 
 </script>
 

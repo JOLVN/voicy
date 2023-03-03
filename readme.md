@@ -2,6 +2,16 @@
 
 ---
 
+## Stack
+
+### API
+* Nest JS
+* TypeORM
+
+### APPP
+* Sveltekit
+* Vite JS
+
 ## Run the API
 
 * Install dependencies

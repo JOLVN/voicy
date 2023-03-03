@@ -1,17 +1,7 @@
 <script>
-    import { supabase } from '$lib/supabase'
-
     let email, password = ''
     const signin = async () => {
-        const { user } = await supabase.auth.signInWithPassword({
-            email: email,
-            password: password
-        })
-        console.log(user);
-        if (user) {
-            // User is signed in, now redirect to admin page
-            
-        }
+
     }
 
 </script>
