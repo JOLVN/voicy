@@ -1,12 +1,11 @@
 <script>
-	
-	import Header from '$lib/components/Header.svelte'
-	import './styles.css'
 
+	import Header from '$lib/components/Header.svelte'
+	import '../styles/styles.scss'
 
 </script>
 
-<div class="app">
+<div class="app main-container">
 	<Header />
 
 	<main>

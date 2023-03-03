@@ -1,5 +1,6 @@
 <script>
-
+    import SamplePostCard from "../lib/components/samplePosts/SamplePostCard.svelte"
+	export let data
 </script>
 
 <svelte:head>
@@ -8,6 +9,12 @@
 </svelte:head>
 
 <section>
+
+	<h1>Latest samples</h1>
+
+	{#each data.samplePosts as samplePost}
+		<SamplePostCard {samplePost} />
+	{/each}
 
 </section>
 

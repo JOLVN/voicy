@@ -1,4 +1,6 @@
 <script>
+    import Button from '$lib/components/Utils/Button.svelte'
+
     let email, password = ''
     const signin = async () => {
 
@@ -11,7 +13,7 @@
     <input type="email" bind:value={email} />
     <label for="password">Password</label>
     <input type="password" bind:value={password} />
-    <button>
-        Login
-    </button>
+    <Button type="outlined">
+        Sign in
+    </Button>
 </form>

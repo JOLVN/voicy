@@ -11,6 +11,7 @@
 ### APPP
 * Sveltekit
 * Vite JS
+* SASS
 
 ## Run the API
 

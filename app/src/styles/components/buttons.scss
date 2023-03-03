@@ -1,0 +1,22 @@
+button {
+    color: $text-base-color;
+    border: none;
+    font-size: 1.6rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &.filled {
+        background-color: $color-green-3;
+    }
+
+    &.text {
+        background: none;
+    }
+
+    &.outlined {
+        background: none;
+        color: $color-green-2;
+        border: 1px solid $color-green-2;
+    }
+}
